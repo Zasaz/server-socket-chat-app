@@ -12,7 +12,7 @@ io.on("connection", (socket) => {
   console.log("Connected Successfully", socket.id);
 
   socket.on("disconnect", () => {
-    console.log("Disconnected", socket.id);
+    console.log("Disconnected Successfully", socket.id);
   });
 
   socket.on("message", (data) => {
