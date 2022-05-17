@@ -1,0 +1,16 @@
+{
+  "name": "socket_chat_server",
+  "version": "1.0.0",
+  "description": "Flutter chat app with socket",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Umair",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "socket.io": "^2.4.1"
+  }
+}
